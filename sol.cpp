@@ -27,7 +27,7 @@ int main() {
 	// coordinates and check if the x-coordinates or the y-coordinates are in increasing order
 	// (if it's in increasing order, then it means that Fafa crossed the identity line)
 	int cnt = 0;
-	for (int i = 1; i + 1< (int) vec.size(); i++) {
+	for (int i = 1; i + 1 < (int) vec.size(); i++) {
 		if (vec[i].first == vec[i].second) {
 			if (vec[i - 1].first < vec[i].first && vec[i].first < vec[i + 1].first) {
 				cnt += 1;
