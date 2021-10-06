@@ -9,6 +9,7 @@ int main() {
 	cin >> n;
 	string s;
 	cin >> s;
+	// view the image in this repository for better understanding
 	// perform the needed operations on the coordinates based on the string sequence
 	vector<pair<int, int>> vec(n + 1);
 	int x = 0;
